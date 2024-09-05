@@ -6,3 +6,7 @@ if ($suggestion) {
     echo "Did you mean: " . $suggestion;
 }
 ```
+
+# References
+
+- http://www.hackingwithphp.com/16/7/0/spellchecking-and-text-matching
