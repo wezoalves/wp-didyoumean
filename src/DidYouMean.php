@@ -36,10 +36,6 @@ class DidYouMean
 
         // Caso contrário, sugere a palavra correta
         $suggestions = pspell_suggest($this->pspell_link, $term);
-        echo('<pre>');
-        var_dump($suggestions);
-        echo ('</pre>');
-        die;
 
         if (!empty($suggestions)) {
             return $suggestions[0]; // Retorna a primeira sugestão
